@@ -49,4 +49,55 @@ tmp/
 .idea/
 *.swp
 .DS_Store
+Thumbs.db# ───────── Secrets and local config (most important) ─────────
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# ───────── Python / FastAPI ─────────
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# ───────── Node / React / Vite ─────────
+node_modules/
+dist/
+build/
+.vite/
+*.local
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+coverage/
+
+# ───────── Database (PostgreSQL) ─────────
+*.dump
+*.backup
+*.sqlite3
+*.db
+pgdata/
+
+# ───────── Logs and temp files ─────────
+*.log
+logs/
+tmp/
+*.tmp
+
+# ───────── Editors and OS ─────────
+.vscode/
+.idea/
+*.swp
+.DS_Store
 Thumbs.db
