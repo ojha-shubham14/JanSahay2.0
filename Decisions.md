@@ -54,6 +54,7 @@ If not: Weeks 9-12 go to fixing, data and tests. Cut EMI, browse and deployment 
 ### D-027 | Route, do not mediate | New 12 Oct 2026
 - Civic features guide the user to the right official channel and link out.
 - Mediation (v3) needs a formal agreement or official API.
+- Map: Leaflet + OpenStreetMap; distance via Haversine in backend; reason: free, no key, explainable.
 
 ### D-028 | Recycling uses PostGIS | New 12 Oct 2026
 - Nearby search uses PostgreSQL's PostGIS extension. Navigation opens Google Maps or OpenStreetMap. No turn-by-turn.
